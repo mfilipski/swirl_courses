@@ -37,8 +37,8 @@
 - Class: cmd_question
   Output: Now, create a variable called tf that gets the result of num_vect < 1, which
     is read as 'num_vect is less than 1'.
-  CorrectAnswer: tf <- num_vect < 1
-  AnswerTests: omnitest(correctExpr='tf <- num_vect < 1')
+  CorrectAnswer: rn <- num_vect < 1
+  AnswerTests: omnitest(correctExpr='rn <- num_vect < 1')
   Hint: Use tf <- num_vect < 1 to assign the result of num_vect < 1 to a variable
     called tf.
 
@@ -51,7 +51,7 @@
     operations on an element-by-element basis. We called these 'vectorized' operations.
 
 - Class: cmd_question
-  Output: Print the contents of tf now.
+  Output: Print the contents of rn now.
   CorrectAnswer: tf
   AnswerTests: omnitest(correctExpr='tf')
   Hint: Just type tf and press Enter to view the its value.
